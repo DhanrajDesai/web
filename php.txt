@@ -1,1 +1,2 @@
-This php notes app is made by me for practices this is for commit
+This php notes app is made by me for practices this is for commit.this is scanning
+
