@@ -8,8 +8,7 @@ jobs:
   call_greeting:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3  
-      - uses: ./github/workflows/greet.yml
-        with:
-          name: "Dhanraj Desai"
+      - run: echo "Hello world"
+      - run: date  
+      
 #./.github/workflows/greet_call.yml
