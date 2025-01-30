@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3  
-      - uses: ./.github/workflows/greet.yml
+      - uses: ./github/workflows/greet.yml
         with:
-          name: "GitHub Actions User"
+          name: "Dhanraj Desai"
 #./.github/workflows/greet_call.yml
