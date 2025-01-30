@@ -8,7 +8,7 @@ jobs:
   call_greeting:
     runs-on: ubuntu-latest
     steps:
-      - uses: ./.github/workflows/greet.yml
+      - uses: /.github/workflows/greet.yml
         with:
           name: "GitHub Actions User"
 #./.github/workflows/greet_call.yml
