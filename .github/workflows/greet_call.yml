@@ -8,7 +8,6 @@ jobs:
   call_greeting:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello world"
-      - run: date  
-      
-#./.github/workflows/greet_call.yml
+      - uses: ./.github/workflows/greet.yml  # Calls the reusable workflow
+        with:
+          name: "GitHub Actions User"  # Provides the 'name' input

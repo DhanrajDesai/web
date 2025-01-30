@@ -1,10 +1,12 @@
-name: greet
+name: Greeting Workflow
+
 on:
   workflow_call:
     inputs:
       name:
         required: true
         type: string
+
 jobs:
   greet_job:
     runs-on: ubuntu-latest
